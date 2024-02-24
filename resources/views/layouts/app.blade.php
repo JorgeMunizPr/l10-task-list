@@ -15,6 +15,14 @@
         .link{
             @apply font-medium text-gray-700 underline decoration-pink-500
         }
+
+        input, textarea{
+            @apply shadow-sm appearance-none border w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none
+        }
+
+        .error{
+            @apply text-red-500 text-sm
+        }
     </style>
     {{-- blade-formatter-enable --}}
 
